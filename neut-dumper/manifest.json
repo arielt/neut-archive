@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Neut Dumper",
+    "description": "Raw performance metrics dumper",
+    "version": "0.1",
+    "icons": {
+        "128": "src/nd.png"
+    },
+    "background": {
+        "scripts": ["src/background_page.js"]
+    },
+    "content_scripts": [{
+      "matches": ["*://*/*"],
+      "js": ["src/content_script.js"]
+    }],
+    "browser_action": {
+        "default_icon": "src/nd.png",
+        "default_popup": "src/popup.html"
+    },
+    "permissions": [
+        "storage",
+        "downloads",
+        "<all_urls>",
+        "webRequest"
+    ]
+}
