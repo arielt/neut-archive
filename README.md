@@ -14,6 +14,10 @@ Neut dumper collects raw performance data triggered by different events.
 
 Neut agent for Chrome.
 
+## neut-firefox
+
+Neut agent for Firefox.
+
 ## neut-opener
 
 Plugin monitoring listed URLs.
