@@ -10,6 +10,10 @@ Neut agent common code.
 
 Neut dumper collects raw performance data triggered by different events.
 
+## neut-chrome
+
+Neut agent for Chrome.
+
 ## neut-opener
 
 Plugin monitoring listed URLs.
